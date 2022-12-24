@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOMs in js</title>
+</he<ad>
+<body>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat tempora, adipisci odio laborum ullam nihil consectetur. Qui, assumenda odit officiis at, eum amet corporis explicabo, cum consectetur ullam eos quam.
+
+    </p>
+    <p>ABC</p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, veniam quo? Tempora nemo nisi dolores perspiciatis aspernatur eligendi asperiores esse.
+
+    </p>
+    <script>
+        var b1=document.querySelectorAll("p");
+        console.log(b1);
+        var arr=[10,20,30];
+        console.log(arr);
+        b1.forEach(function(m){
+            console.log(m);
+            m.style.color="red";
+            m.style.borderStyle="solid";
+            m.style.borderColor="yellowgreen";
+            m.style.borderWidth="5px";
+        })
+    </script>
+    
+</body>
+</html>
